@@ -6,6 +6,6 @@ describe("Renders main page correctly", () => {
     it("Should render the page correctly", () => {
         render(App());
         const h1 = screen.queryByText("Hello Martin");
-        expect(h1).toBeInTheDocument();
+        expect(h1).toBeInTheDocument()
     });
 });
