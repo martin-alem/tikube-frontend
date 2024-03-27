@@ -1,6 +1,9 @@
 name: Run Tests on PR to Development
 
 on:
+  push:
+    branches:
+      - feature/*
   pull_request:
     branches: [ "main", "development" ]
 
