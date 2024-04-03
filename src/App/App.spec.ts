@@ -5,7 +5,7 @@ import App from "./App";
 describe("Renders main page correctly", () => {
     it("Should render the page correctly", () => {
         render(App());
-        const h1 = screen.queryByText("Hello Martin");
+        const h1 = screen.queryByText("Welcome. Tikube a YouTube Clone - Martin Alemajoh");
         expect(h1).toBeInTheDocument()
     });
 });
